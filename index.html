@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        .project {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-left: 5px solid #4CAF50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        h1, h2 {
+            font-family: 'Georgia', serif;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Add some animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        header, section, footer {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        /* Additional styles for attractiveness */
+        .project h3 {
+            color: #4CAF50;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        .project:hover {
+            background-color: #e0f7fa;
+            transition: background-color 0.3s ease;
+        }
+
+        .project:hover h3 {
+            color: #00796b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to John's Portfolio</h1>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm John, a passionate web developer with experience in creating dynamic and responsive websites.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 John's Portfolio</p>
+    </footer>
+
+    <!-- Add some animation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("John's Portfolio Website Loaded");
+        });
+    </script>
+</body>
+</html>
